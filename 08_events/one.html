@@ -45,7 +45,9 @@
     //     e.stopPropagation()
     //     console.log("google clicked");
     // }, false)
-   
+   // false is for bubbling and true is for capturing
+    //capturing=> top to bottom
+    //bubbling=>bottom to top
     
     document.querySelector('#images').addEventListener('click', function(e){
         console.log(e.target.tagName);
