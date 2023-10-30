@@ -1,0 +1,3 @@
+js engine is single threaded engine '
+but it performs fast as it is always coupled with a dev envionement sucha as browser or node environment
+Async -> non-blocking            Sync-> blocking
