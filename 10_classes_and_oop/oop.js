@@ -28,9 +28,9 @@ function User(username, loginCount, isLoggedIn){
 
     }
 
-    return this
+    return this//implicit defined i.e already defined
 }
-
+// if new is not defined then js will overwrite the new instance of previous object created 
 const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false)
 console.log(userOne.constructor);
